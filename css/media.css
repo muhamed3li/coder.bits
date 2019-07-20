@@ -1,0 +1,152 @@
+/* Start Media Query */
+
+
+/* smart phone and tablets */
+
+@media (max-width:557px) {
+    .our-portfolio .bg-card {
+
+        width: 353px;
+        left: 50px;
+        position: relative
+    }
+        .boxs {
+        height: 1020px;
+        padding: 80px 0px;
+    }
+        .portfolio-links a {
+        font-size: 15px
+    }
+        .slider {
+        height: 600px
+    }
+
+    .small-slider {
+        width: 50% !important;
+    }
+        .our-slider p {
+        font-size: 15px;
+    }
+
+    .our-slider h3 {
+        font-size: 19px;
+    }
+
+
+
+
+
+
+}
+
+@media (min-width:558px) and (max-width:767px) {
+    .home {
+        background-position: center center;
+
+    }
+
+    .home-caption {
+        font-size: 30px;
+    }
+
+    .home-sub {
+        font-size: 17px;
+    }
+
+    .btn {
+        font-size: 15px
+    }
+
+    .about-info {
+        padding-top: 30px;
+    }
+
+    .progres {
+        padding-top: 25px;
+    }
+
+    .boxs {
+        height: 1020px;
+        padding: 80px 0px;
+    }
+
+    .our-boxs {
+        margin-bottom: 20px;
+    }
+
+    .our-boxs h5 {
+        font-size: 18px;
+    }
+
+    .portfolio-links a {
+        font-size: 15px
+    }
+
+    .our-portfolio .bg-card {
+
+        width: 353px;
+        left: 78px;
+        position: relative
+    }
+
+    .modal-icon {
+        bottom: 80px;
+    }
+
+    .slider {
+        height: 600px
+    }
+
+    .small-slider {
+        width: 50% !important;
+    }
+
+    .our-slider p {
+        font-size: 15px;
+    }
+
+    .our-slider h3 {
+        font-size: 22px;
+    }
+}
+
+/* small screen */
+
+@media (min-width:768px) and (max-width:991px) {
+    .home-caption {
+        font-size: 40px;
+    }
+
+    .home-sub {
+        font-size: 20px;
+    }
+
+    .slider {
+        height: 500px
+    }
+
+
+
+
+
+
+}
+
+/* medium screen */
+
+@media (min-width:992px) and (max-width:1199px) {
+    .home-caption {
+        font-size: 50px;
+    }
+
+    .home-sub {
+        font-size: 30px;
+    }
+
+    .home {
+        background-position: center center;
+
+    }
+}
+
+/* larg screen */
